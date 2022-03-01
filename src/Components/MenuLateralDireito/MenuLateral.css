@@ -1,0 +1,50 @@
+body {
+    background: #D9E6F6;
+}
+
+
+.menu-direito {
+    
+    width: 160px;
+    height: 590px;
+    left: 0px;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+
+
+
+
+
+.zoom {
+	overflow: hidden;
+    margin: 15px;
+}
+
+.zoom img {
+	max-width: 18rem;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+    
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.zoom {
+    
+    backdrop-filter: blur(6px) saturate(100%);
+    -webkit-backdrop-filter: blur(6px) saturate(100%);
+    background-image: 
+        radial-gradient(at 47% 33%, #00d2ff 0, transparent 60%), 
+        radial-gradient(at 82% 65%, #3a7bd5 0, transparent 60%);
+    border-radius: 12px;
+    
+}
+
+
+

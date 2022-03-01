@@ -1,0 +1,27 @@
+*body {
+    background: #D9E6F6;
+}
+
+.texto{
+    color:#EDF0F5;
+    backdrop-filter: blur(4px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+      
+}
+
+.carrossel {
+    
+    width: 1110px;
+    height: 411px;
+    left: 128px;
+    top: 100px;
+}
+
+.col-example {
+
+    grid: 2fr 1fr;
+
+}

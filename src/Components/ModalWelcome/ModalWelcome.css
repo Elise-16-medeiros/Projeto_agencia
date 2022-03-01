@@ -1,0 +1,15 @@
+body {
+    background: #D9E6F6;
+}
+
+.botaoModal {
+    display: grid;
+    direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: #2E7BB4;
+    border: 1px solid #2E7BB4;
+    box-sizing: border-box;
+    border-radius: 8px;
+  
+}

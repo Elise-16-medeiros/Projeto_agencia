@@ -1,0 +1,13 @@
+body {
+    background:#D9E6F6;
+}
+
+.amigos {
+    display:grid;
+    direction: column;
+    justify-content:flex-start;
+    align-items: flex-end;
+    
+    border-radius: 8px;
+
+}
