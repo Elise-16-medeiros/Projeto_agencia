@@ -1,34 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import './index.css';
-
-
-import Welcome from './Components/Welcome/Welcome';
-import Login from './Components/Login/Login';
-import Registro from './Components/Registro/Registro';
-import MenuEsquerdo from './Components/MenuEsquerdo/MenuEsquerdo';
-import Navbar from './Components/Navbar/Navbar';
-import HomePage from './Components/HomePage/HomePage';
-import MenuLateral from './Components/MenuLateralDireito/MenuLateral';
+import Home from '../src/Components/Home/Home';
+import Register from './Components/Login/Register';
+import Login from './Components/FormLogin/Login';
+import Sale from '../src/Components/Sale/Sale';
+import Travel from '../src/Components/Travel/Travel';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <HomePage /> 
-    <MenuLateral />
-    <MenuEsquerdo />
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Home/>}></Route>
+        <Route path="/Travel" element={<Travel/>}></Route>
+        <Route path="/Sale" element={<Sale/>}></Route>
+        <Route path="/Login" element={<Login/>}></Route>
+        <Route path="/Register" element={<Register/>}></Route>
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 

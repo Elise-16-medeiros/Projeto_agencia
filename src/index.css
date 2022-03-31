@@ -1,14 +1,12 @@
-*body {
-  background:#D9E6F6;
+@import url('https://fonts.googleapis.com/css2? família= Fonte+Sans+Pro:wght@300;400;600 & display=swap');
+body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Source Sans Pro', sem serifa;
+  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Source Sans Pro', sem serifa;
 }
+

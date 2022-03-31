@@ -1,0 +1,13 @@
+#nav_top { min-height: 40px;}
+#main_nav a { color: #212934;}
+#main_nav a:hover { color: #005f73;}
+#main_nav .navbar .nav-icon { margin-right: 20px;}
+
+@media (min-width: 768px) {
+    #main_nav .navbar-nav {max-width: 450px;}
+}
+
+@media (min-width: 992px) {
+    #main_nav .navbar-nav {max-width: 550px;}
+}
+
